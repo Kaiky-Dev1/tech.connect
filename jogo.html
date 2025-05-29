@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechConnect Summit</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>TechConnect Summit</h1>
+    <p>Conectando desenvolvedores e designers ao futuro da tecnologia</p>
+  </header>
+
+  <section class="info">
+    <h2>Sobre o Evento</h2>
+    <p>Data: 25/06/2025 | Local: Salvador - BA</p>
+    <p>O TechConnect Summit é um encontro de inovação, tecnologia e design, reunindo grandes nomes do setor.</p>
+  </section>
+
+  <section class="palestrantes">
+    <h2>Palestrantes</h2>
+    <div class="palestrante">
+      <img src="https://randomuser.me/api/portraits/men/1.jpg" alt="João Silva">
+      <h3>João Silva</h3>
+      <p>Engenheiro de Software - Tema: Inteligência Artificial</p>
+    </div>
+    <div class="palestrante">
+      <img src="https://randomuser.me/api/portraits/women/2.jpg" alt="Maria Souza">
+      <h3>Maria Souza</h3>
+      <p>UX Designer - Tema: Experiência do Usuário</p>
+    </div>
+    <div class="palestrante">
+      <img src="https://randomuser.me/api/portraits/men/3.jpg" alt="Carlos Lima">
+      <h3>Carlos Lima</h3>
+      <p>Desenvolvedor Front-End - Tema: Web Performance</p>
+    </div>
+  </section>
+
+  <section class="formulario">
+    <h2>Inscreva-se</h2>
+    <form>
+      <label for="nome">Nome Completo:</label>
+      <input type="text" id="nome" name="nome" required>
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label>Você participa como:</label>
+      <div class="input-group">
+        <input type="radio" id="desenvolvedor" name="perfil" value="desenvolvedor" required>
+        <label for="desenvolvedor">Desenvolvedor</label>
+      </div>
+      <div class="input-group">
+        <input type="radio" id="designer" name="perfil" value="designer">
+        <label for="designer">Designer</label>
+      </div>
+
+      <label>Temas de Interesse:</label>
+      <div class="input-options">
+        <div class="input-group">
+          <input type="checkbox" id="ia" name="temas" value="IA">
+          <label for="ia">IA</label>
+        </div>
+        <div class="input-group">
+          <input type="checkbox" id="ux" name="temas" value="UX">
+          <label for="ux">UX</label>
+        </div>
+        <div class="input-group">
+          <input type="checkbox" id="front" name="temas" value="Front-End">
+          <label for="front">Front-End</label>
+        </div>
+      </div>
+
+      <button type="submit">Enviar Inscrição</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 TechConnect. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
